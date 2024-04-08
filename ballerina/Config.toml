@@ -1,2 +1,20 @@
-
+certificate_date= "your date"#  Type of String
+certification_name="your certification name"#  Type of String
+accessKeyId= "your acessKeyId"#  Type of String
+secretAccessKey= "your secretAccessKey"#  Type of String
+region= "your region"#  Type of String
+bucketName ="your bucketName"#  Type of String
+pdfFilePath= "your pdf file path for certificate"#  Type of String
+font_type="your font type"#  Type of String
+fontsize = 0	# Type of INTEGER/ your font size
+centerX=-1# Type of INTEGER / your position for center of x coordinate
+centerY = 0	# Type of INTEGER/ your position for center of x coordinate
+geturl = true	# Type of BOOLEAN   
+fontFilePath = "your path to the .ttf file"#  Type of String
+clientId = "your clien Id"#  Type of String
+clientSecret = "your clientSecret"#  Type of String	
+refreshToken = "your refreshToken"#  Type of String	
+refreshUrl = "your refresh Url"#  Type of String
+sheetName = "your sheet name"#  Type of String
+spreadsheetId="your spreadsheet id"#  Type of String
 
