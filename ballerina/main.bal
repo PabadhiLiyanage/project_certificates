@@ -115,11 +115,11 @@ public function createCheckID() returns string|error? {
 }
 
 public function createNeworkBook() returns  string|error?{
-    string spreadsheetId = "";
-    string sheetName = "Sheet1";
+    string spreadsheetIdNew = "";
+    string sheetNameNew = "Sheet1";
     gsheets:Spreadsheet response = check spreadsheetClient->createSpreadsheet("Workbook_with_urls");
-    spreadsheetId = response.spreadsheetId;
+    spreadsheetIdNew = response.spreadsheetId;
     string [] titles =["credintial id","name","certification name","certification date","url"];
-    _ = check spreadsheetClient->createOrUpdateRow(spreadsheetId, sheetName,1,titles);
-    return spreadsheetId;
+    _ = check spreadsheetClient->createOrUpdateRow(spreadsheetIdNew, sheetNameNew,1,titles);
+    return spreadsheetIdNew;
 }
