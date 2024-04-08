@@ -98,6 +98,9 @@ This configuration file allows you to customize various aspects of the certifica
 
 If your Google Sheet deviates from the pattern "Student Fullname, First Name, Last Name, University, Name for the certificate," you'll need to make adjustments in the Ballerina code (`main.bal`) accordingly. Ensure that the column values in your code match the structure of your Google Sheet for accurate data processing.
 
+### Note: Specify absolute path to your root diectory inside ballerina.toml 
+replace "absolute path to your root directory" in ballerina.toml file inside the ballerina directory.
+
 ## Project Build and Project Run
 
 To build the project, simply use the Gradle build command. After the building process, you'll find the created JAR file in the target directory within the Ballerina directory.
