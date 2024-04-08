@@ -1,0 +1,10 @@
+[package]
+org = "wso2"
+name = "certificate_generation"
+version = "0.1.0"
+distribution = "2201.8.5"
+
+[[platform.java17.dependency]]
+path="/home/wso2/Documents/certificate_generation/Certificate_generation/build/libs/pdf_creator-1.0-SNAPSHOT.jar"
+[build-options]
+observabilityIncluded = true
