@@ -98,14 +98,12 @@ This configuration file allows you to customize various aspects of the certifica
 
 If your Google Sheet deviates from the pattern "Student Fullname, First Name, Last Name, University, Name for the certificate," you'll need to make adjustments in the Ballerina code (`main.bal`) accordingly. Ensure that the column values in your code match the structure of your Google Sheet for accurate data processing.
 
-### Note: Specify absolute path to your root diectory inside ballerina.toml 
-replace "absolute path to your root directory" in ballerina.toml file inside the ballerina directory.
 
 ## Project Build and Project Run
 
 To build the project, simply use the Gradle build command. After the building process, you'll find the created JAR file in the target directory within the Ballerina directory.
 
-To run the program, navigate inside the Ballerina directory and run the created JAR file. If you prefer to run the JAR file in the root directory, copy the config.toml file there. For detailed steps on providing values to configurable variables, you can refer to the [Ballerina documentation](https://ballerina.io/learn/provide-values-to-configurable-variables/).
+To run the program, navigate inside the Ballerina directory and run the created JAR file. If you prefer to run the JAR file in the root directory, copy the config.toml file there and give absolute path in ballerina.toml under platform.java17.dependency. For detailed steps on providing values to configurable variables, you can refer to the [Ballerina documentation](https://ballerina.io/learn/provide-values-to-configurable-variables/).
 
 ---
 
